@@ -12,3 +12,11 @@ http://stackoverflow.com/questions/7985081/how-to-deploy-a-jekyll-site-locally-w
 
 baseurl options:
 http://blog.andrewshell.org/understanding-baseurl/
+
+## building
+_configure.yml needs to have baseurl=pvosjk/
+jekyll build -d pvosjk
+jekyll serve
+
+then navigate to localhost:4000/pvosjk
+
